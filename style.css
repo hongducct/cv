@@ -16,7 +16,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
   
-  h1 {
+h1 {
     text-align: center;
     font-size: 2.5em;
     margin-bottom: 10px;
@@ -51,32 +51,36 @@ body {
   }
   
   .skills {
-    display: flex; /* Sử dụng flexbox để chia cột */
+    display: flex; 
   }
   
   .skills-column {
-    width: 50%; /* Mỗi cột chiếm 50% chiều rộng */
+    width: 50%; 
   }
   
   .project {
-    margin-bottom: 20px;
+    margin-bottom: 30px; /* Tăng khoảng cách giữa các phần */
   }
   
   a {
-    color: black;
+    color: blue; /* Thay đổi màu liên kết thành xanh dương */
     text-decoration: none;
   }
   
   .edu-item { 
-    margin-bottom: 20px;
-    display: flex; /* Sử dụng flexbox để sắp xếp ngang hàng */
+    margin-bottom: 30px; /* Tăng khoảng cách giữa các phần */
+    display: flex; 
   }
   
   .edu-left {
-    width: 70%; /* Điều chỉnh chiều rộng theo ý muốn */
+    width: 70%; 
   }
   
   .edu-right {
-    width: 30%; /* Điều chỉnh chiều rộng theo ý muốn */
-    text-align: right; /* Căn phải nội dung */
+    width: 30%;
+    text-align: right;
+  }
+  
+  h3 { /* Style cho h3 */
+    color: #554b4b; /* Màu xám nhạt */
   }
